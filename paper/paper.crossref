@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<doi_batch xmlns="http://www.crossref.org/schema/5.3.1"
+           xmlns:ai="http://www.crossref.org/AccessIndicators.xsd"
+           xmlns:rel="http://www.crossref.org/relations.xsd"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           version="5.3.1"
+           xsi:schemaLocation="http://www.crossref.org/schema/5.3.1 http://www.crossref.org/schemas/crossref5.3.1.xsd">
+  <head>
+    <doi_batch_id>20251225215839-68e69df9f0f922b676323dc464116de1891685f2</doi_batch_id>
+    <timestamp>20251225215839</timestamp>
+    <depositor>
+      <depositor_name>JOSS Admin</depositor_name>
+      <email_address>admin@theoj.org</email_address>
+    </depositor>
+    <registrant>The Open Journal</registrant>
+  </head>
+  <body>
+    <journal>
+      <journal_metadata>
+        <full_title>Journal of Open Source Software</full_title>
+        <abbrev_title>JOSS</abbrev_title>
+        <issn media_type="electronic">2475-9066</issn>
+        <doi_data>
+          <doi>10.21105/joss</doi>
+          <resource>https://joss.theoj.org</resource>
+        </doi_data>
+      </journal_metadata>
+      <journal_issue>
+        <publication_date media_type="online">
+          <month>01</month>
+          <year>1970</year>
+        </publication_date>
+        <journal_volume>
+          <volume>¿VOL?</volume>
+        </journal_volume>
+        <issue>¿ISSUE?</issue>
+      </journal_issue>
+      <journal_article publication_type="full_text">
+        <titles>
+          <title>LexiRus: Word-Aligned Translation of Russian Learning Materials for International Students</title>
+        </titles>
+        <contributors>
+          <person_name sequence="first" contributor_role="author">
+            <given_name>Nataliya Kondrashova</given_name>
+            <surname>Vladimirovna</surname>
+            <affiliations>
+              <institution><institution_name>ITMO University, Saint Petersburg, Russian Federation</institution_name></institution>
+            </affiliations>
+          </person_name>
+          <person_name sequence="additional"
+                       contributor_role="author">
+            <given_name>Elijah Edward</given_name>
+            <surname>Masanga</surname>
+            <affiliations>
+              <institution><institution_name>Damotiva, Mbeya, Tanzania</institution_name></institution>
+            </affiliations>
+            <ORCID>https://orcid.org/0000-0003-2397-9680</ORCID>
+          </person_name>
+        </contributors>
+        <publication_date>
+          <month>01</month>
+          <day>01</day>
+          <year>1970</year>
+        </publication_date>
+        <pages>
+          <first_page>¿PAGE?</first_page>
+        </pages>
+        <publisher_item>
+          <identifier id_type="doi">N/A</identifier>
+        </publisher_item>
+        <ai:program name="AccessIndicators">
+          <ai:license_ref applies_to="vor">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="am">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+          <ai:license_ref applies_to="tdm">http://creativecommons.org/licenses/by/4.0/</ai:license_ref>
+        </ai:program>
+        <rel:program>
+          <rel:related_item>
+            <rel:description>Software archive</rel:description>
+            <rel:inter_work_relation relationship-type="references" identifier-type="doi">10.5281</rel:inter_work_relation>
+          </rel:related_item>
+          <rel:related_item>
+            <rel:description>GitHub review issue</rel:description>
+            <rel:inter_work_relation relationship-type="hasReview" identifier-type="uri">https://github.com/openjournals</rel:inter_work_relation>
+          </rel:related_item>
+        </rel:program>
+        <doi_data>
+          <doi>N/A</doi>
+          <resource>https://joss.theoj.org/papers/N/A</resource>
+          <collection property="text-mining">
+            <item>
+              <resource mime_type="application/pdf">https://joss.theoj.org/papers/N/A.pdf</resource>
+            </item>
+          </collection>
+        </doi_data>
+        <citation_list>
+          <citation key="krashen1982principles">
+            <volume_title>Principles and practice in second language acquisition</volume_title>
+            <author>Krashen</author>
+            <isbn>9780080286280</isbn>
+            <cYear>1982</cYear>
+            <unstructured_citation>Krashen, S. D. (1982). Principles and practice in second language acquisition. Pergamon Press. ISBN: 9780080286280</unstructured_citation>
+          </citation>
+          <citation key="warschauer2004computer">
+            <article_title>Computer-assisted language learning: An introduction</article_title>
+            <author>Warschauer</author>
+            <journal_title>Language Teaching</journal_title>
+            <issue>2</issue>
+            <volume>31</volume>
+            <doi>10.1017/S0261444800012970</doi>
+            <cYear>1998</cYear>
+            <unstructured_citation>Warschauer, M., &amp; Healey, D. (1998). Computer-assisted language learning: An introduction. Language Teaching, 31(2), 57–71. https://doi.org/10.1017/S0261444800012970</unstructured_citation>
+          </citation>
+          <citation key="nation2013learning">
+            <volume_title>Learning vocabulary in another language</volume_title>
+            <author>Nation</author>
+            <doi>10.1017/CBO9781139858656</doi>
+            <cYear>2013</cYear>
+            <unstructured_citation>Nation, I. S. P. (2013). Learning vocabulary in another language (2nd ed.). Cambridge University Press. https://doi.org/10.1017/CBO9781139858656</unstructured_citation>
+          </citation>
+          <citation key="lado1957linguistics">
+            <volume_title>Linguistics across cultures: Applied linguistics for language teachers</volume_title>
+            <author>Lado</author>
+            <cYear>1957</cYear>
+            <unstructured_citation>Lado, R. (1957). Linguistics across cultures: Applied linguistics for language teachers. University of Michigan Press.</unstructured_citation>
+          </citation>
+          <citation key="laufer2005focus">
+            <article_title>Focus on form in second language vocabulary learning</article_title>
+            <author>Laufer</author>
+            <journal_title>EUROSLA Yearbook</journal_title>
+            <issue>1</issue>
+            <volume>5</volume>
+            <doi>10.1075/eurosla.5.11lau</doi>
+            <cYear>2005</cYear>
+            <unstructured_citation>Laufer, B. (2005). Focus on form in second language vocabulary learning. EUROSLA Yearbook, 5(1), 223–250. https://doi.org/10.1075/eurosla.5.11lau</unstructured_citation>
+          </citation>
+          <citation key="honnibal2020spacy">
+            <article_title>spaCy: Industrial-strength natural language processing in python</article_title>
+            <author>Honnibal</author>
+            <doi>10.5281/zenodo.1212303</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>Honnibal, M., Montani, I., Van Landeghem, S., &amp; Boyd, A. (2020). spaCy: Industrial-strength natural language processing in python. https://doi.org/10.5281/zenodo.1212303</unstructured_citation>
+          </citation>
+          <citation key="bird2009natural">
+            <volume_title>Natural language processing with python: Analyzing text with the natural language toolkit</volume_title>
+            <author>Bird</author>
+            <cYear>2009</cYear>
+            <unstructured_citation>Bird, S., Klein, E., &amp; Loper, E. (2009). Natural language processing with python: Analyzing text with the natural language toolkit. O’Reilly Media, Inc. https://www.nltk.org/book/</unstructured_citation>
+          </citation>
+          <citation key="jarvis2008crosslinguistic">
+            <volume_title>Crosslinguistic influence in language and cognition</volume_title>
+            <author>Jarvis</author>
+            <doi>10.4324/9780203935927</doi>
+            <cYear>2008</cYear>
+            <unstructured_citation>Jarvis, S., &amp; Pavlenko, A. (2008). Crosslinguistic influence in language and cognition. Routledge. https://doi.org/10.4324/9780203935927</unstructured_citation>
+          </citation>
+          <citation key="timberlake2004reference">
+            <volume_title>A reference grammar of russian</volume_title>
+            <author>Timberlake</author>
+            <doi>10.1017/CBO9780511613951</doi>
+            <cYear>2004</cYear>
+            <unstructured_citation>Timberlake, A. (2004). A reference grammar of russian. Cambridge University Press. https://doi.org/10.1017/CBO9780511613951</unstructured_citation>
+          </citation>
+          <citation key="vaswani2017attention">
+            <article_title>Attention is all you need</article_title>
+            <author>Vaswani</author>
+            <journal_title>Advances in Neural Information Processing Systems</journal_title>
+            <volume>30</volume>
+            <cYear>2017</cYear>
+            <unstructured_citation>Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., &amp; Polosukhin, I. (2017). Attention is all you need. Advances in Neural Information Processing Systems, 30. https://arxiv.org/abs/1706.03762</unstructured_citation>
+          </citation>
+          <citation key="o2020neural">
+            <article_title>Neural machine translation: A review</article_title>
+            <author>O’Shea</author>
+            <journal_title>Journal of Artificial Intelligence Research</journal_title>
+            <volume>69</volume>
+            <doi>10.1613/jair.1.12007</doi>
+            <cYear>2020</cYear>
+            <unstructured_citation>O’Shea, J., Crockett, K., Bandar, Z., &amp; Buckley, K. (2020). Neural machine translation: A review. Journal of Artificial Intelligence Research, 69, 347–418. https://doi.org/10.1613/jair.1.12007</unstructured_citation>
+          </citation>
+          <citation key="vesselinov2012duolingo">
+            <article_title>The duolingo effectiveness study</article_title>
+            <author>Vesselinov</author>
+            <journal_title>City University of New York, USA</journal_title>
+            <cYear>2012</cYear>
+            <unstructured_citation>Vesselinov, R., &amp; Grego, J. (2012). The duolingo effectiveness study. City University of New York, USA. http://static.duolingo.com/s3/DuolingoReport_Final.pdf</unstructured_citation>
+          </citation>
+        </citation_list>
+      </journal_article>
+    </journal>
+  </body>
+</doi_batch>

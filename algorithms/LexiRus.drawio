@@ -1,0 +1,79 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/25.0.2 Chrome/128.0.6613.186 Electron/32.2.5 Safari/537.36" version="25.0.2">
+  <diagram name="Page-1" id="4ZnakYaXuWYvKP2Gj4IX">
+    <mxGraphModel dx="794" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G9KFik33UCXNncw5ps8w-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G9KFik33UCXNncw5ps8w-3" target="G9KFik33UCXNncw5ps8w-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-3" value="PDF to Markdown Conversion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G9KFik33UCXNncw5ps8w-10" target="G9KFik33UCXNncw5ps8w-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G9KFik33UCXNncw5ps8w-10" target="G9KFik33UCXNncw5ps8w-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G9KFik33UCXNncw5ps8w-10" target="G9KFik33UCXNncw5ps8w-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-10" value="Select&amp;nbsp;&lt;div&gt;Translation&amp;nbsp;&lt;/div&gt;&lt;div&gt;Format&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="350" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G9KFik33UCXNncw5ps8w-12" target="G9KFik33UCXNncw5ps8w-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-12" value="Line Connection Translation Format" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G9KFik33UCXNncw5ps8w-14" target="G9KFik33UCXNncw5ps8w-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-14" value="Sentence Level Translation Format" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="490" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G9KFik33UCXNncw5ps8w-16" target="G9KFik33UCXNncw5ps8w-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-16" value="Nouns and Verbs Level Translation Format" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="490" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G9KFik33UCXNncw5ps8w-19" target="G9KFik33UCXNncw5ps8w-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-19" value="Upload PDF with Translation Metadata" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="G9KFik33UCXNncw5ps8w-24" target="G9KFik33UCXNncw5ps8w-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-24" value="Read Word by Word then add Word Translation to the Next Line with Line Connection" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="620" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="G9KFik33UCXNncw5ps8w-27" target="G9KFik33UCXNncw5ps8w-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-27" value="Read Sentence by Sentence then Translate Word in a Sentence then ass a Line in Sentence Level with Each Word Translation" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="610" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="G9KFik33UCXNncw5ps8w-29" target="G9KFik33UCXNncw5ps8w-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-29" value="Read Word by Word Find in a Word if Noun / Verb Get Infinitive Version then Translate and add Line Connection" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="587.5" y="610" width="155" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="G9KFik33UCXNncw5ps8w-31" target="G9KFik33UCXNncw5ps8w-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-31" value="Write New Markdown file with new Translation Document" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="342.5" y="780" width="155" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="G9KFik33UCXNncw5ps8w-35" value="Convert Markdown to Final PDF" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
