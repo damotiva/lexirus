@@ -1,0 +1,8 @@
+volumes:
+  etc_lexirus:
+
+services:
+  lexi-rus:
+    image: ghcr.io/damotiva/lexirus:latest
+    container_name: lexi-rus
+    
