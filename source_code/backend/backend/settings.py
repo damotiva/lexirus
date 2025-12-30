@@ -15,26 +15,13 @@ DB_PORT = int(env("DB_PORT"))
 DB_USER = env("DB_USER")
 DB_PASS = env("DB_PASS")
 DB_NAME = env("DB_NAME")
-DB_CONN_STRING = env("DB_CONN_STRING")
-# REDIS_CACHE_LOCATION = env("REDIS_CACHE_LOCATION")
-
-
-# Load Micro-Services Config
-CONFIG_PATH = "/home/sys/config/config.json"
-with open(CONFIG_PATH) as f:
-    CONFIG = json.load(f)
-
-LAN_IP = CONFIG.get("lan_ip")
-
-
-current_country = 'Tanzania'
 
 DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 # Application definition
 INSTALLED_APPS = [
-    'django.contrib.admin',
+    # 'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -46,6 +33,7 @@ INSTALLED_APPS = [
     'lexirus',
     'sslserver',
     'redis_search_django',
+    'django_celery_results',
 ]
 
 MIDDLEWARE = [
@@ -54,8 +42,8 @@ MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    # 'django.middleware.csrf.CsrfViewMiddleware',
-    # 'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
     'django.middleware.cache.FetchFromCacheMiddleware',
 ]
@@ -102,6 +90,14 @@ DATABASES = {
     }
 }
 
+# Celery Configuration
+CELERY_BROKER_URL = 'redis://20.151.57.143:6379/0'
+CELERY_RESULT_BACKEND = 'redis://20.151.57.143:6379/0'
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TIMEZONE = 'UTC'
+
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
@@ -129,3 +125,6 @@ LOGOUT_URL = 'rest_framework:logout'
 STATIC_URL = '/static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+MEDIA_URL = "/media/"
+MEDIA_ROOT = BASE_DIR + "/media"

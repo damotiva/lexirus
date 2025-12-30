@@ -1,8 +1,6 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - UWATA Hospital Management System',
-    title: 'Procurement Works',
     htmlAttrs: {
       lang: 'en'
     },

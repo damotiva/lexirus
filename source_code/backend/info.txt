@@ -1,0 +1,15 @@
+docker volume create redis-data
+
+
+docker run -d \
+  --name redis-stack \
+  -p 6379:6379 \
+  -v redis-data:/data \
+  redis:latest redis-server --appendonly yes
+
+
+python manage.py runserver 0.0.0.0:8000
+
+celery -A backend worker
+
+celery -A backend flower --port=5555 --address=0.0.0.0 

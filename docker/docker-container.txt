@@ -1,0 +1,41 @@
+LexiRus WAN
+=======================
+
+docker run -it -d \
+  --label traefik.enable=true \
+  --label traefik.http.routers.lexirus_front.rule=Host\(\`lexirus.daklass.ru\`\) \
+  --label traefik.http.routers.lexirus_front.entrypoints=websecure \
+  --label traefik.http.routers.lexirus_front.tls.certresolver=lets-encrypt \
+  --label traefik.http.routers.lexirus_front.tls=true \
+  --label traefik.http.routers.lexirus_front.service=lexirus-front-service \
+  --label traefik.http.services.lexirus-front-service.loadbalancer.server.port=80 \
+  --label traefik.http.routers.lexirus_front.priority=100 \
+  --label traefik.http.routers.lexirus_backend.rule=Host\(\`lexirusapi.daklass.ru\`\) \
+  --label traefik.http.routers.lexirus_backend.entrypoints=websecure \
+  --label traefik.http.routers.lexirus_backend.tls.certresolver=lets-encrypt \
+  --label traefik.http.routers.lexirus_backend.tls=true \
+  --label traefik.http.routers.lexirus_backend.service=lexirus-ru-backend-service \
+  --label traefik.http.services.lexirus-ru-backend-service.loadbalancer.server.port=80 \
+  --label traefik.http.routers.lexirus_backend.priority=100 \
+  --name lexirus \
+  --network web \
+  --restart always \
+  --expose 80 \
+ damotiva/flowsignal:latest
+
+  damotiva/lexirus:latest
+
+
+
+LexiRus LAN
+=======================
+
+docker run -it -d \
+  --name lexirus \
+  --network web \
+  -v ./source_code:/var/www/html \
+  -p 6409:80 \
+  -p 8409:8000 \
+  damotiva/lexirus:latest
+
+
